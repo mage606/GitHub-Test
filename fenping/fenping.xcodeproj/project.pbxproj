@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		717D3DE3181608A1005C4DE9 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 717D3DE2181608A1005C4DE9 /* HomeCell.m */; };
+		7188CCA7181187B000007720 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7188CCA0181187B000007720 /* MMDrawerBarButtonItem.m */; };
+		7188CCA8181187B000007720 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7188CCA2181187B000007720 /* MMDrawerController.m */; };
+		7188CCA9181187B000007720 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7188CCA4181187B000007720 /* MMDrawerVisualState.m */; };
+		7188CCAA181187B000007720 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7188CCA6181187B000007720 /* UIViewController+MMDrawerController.m */; };
+		7188CCAD18118AC200007720 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7188CCAC18118AC200007720 /* MMExampleDrawerVisualStateManager.m */; };
+		7190ED2718117A42001B2357 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190ED2618117A42001B2357 /* UIKit.framework */; };
+		7190ED2918117A42001B2357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190ED2818117A42001B2357 /* Foundation.framework */; };
+		7190ED2B18117A42001B2357 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190ED2A18117A42001B2357 /* CoreGraphics.framework */; };
+		7190ED3118117A43001B2357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7190ED2F18117A43001B2357 /* InfoPlist.strings */; };
+		7190ED3318117A43001B2357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7190ED3218117A43001B2357 /* main.m */; };
+		7190ED3718117A43001B2357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7190ED3618117A43001B2357 /* AppDelegate.m */; };
+		7190ED3918117A43001B2357 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7190ED3818117A43001B2357 /* Default.png */; };
+		7190ED3B18117A43001B2357 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7190ED3A18117A43001B2357 /* Default@2x.png */; };
+		7190ED3D18117A43001B2357 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7190ED3C18117A43001B2357 /* Default-568h@2x.png */; };
+		7190ED4818117B3C001B2357 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7190ED4718117B3C001B2357 /* RootViewController.m */; };
+		7190ED4B18117D02001B2357 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7190ED4A18117D02001B2357 /* LeftViewController.m */; };
+		7190ED4E18117D25001B2357 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7190ED4D18117D25001B2357 /* RightViewController.m */; };
+		7190ED5018117E19001B2357 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190ED4F18117E19001B2357 /* libz.dylib */; };
+		7190ED5218117E2A001B2357 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190ED5118117E2A001B2357 /* SystemConfiguration.framework */; };
+		7190ED5418117E31001B2357 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190ED5318117E31001B2357 /* CFNetwork.framework */; };
+		7190ED5618117E3A001B2357 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190ED5518117E3A001B2357 /* MobileCoreServices.framework */; };
+		7190ED5818117EAF001B2357 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7190ED5718117EAF001B2357 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		717D3DE1181608A1005C4DE9 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		717D3DE2181608A1005C4DE9 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		7188CC9F181187B000007720 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		7188CCA0181187B000007720 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		7188CCA1181187B000007720 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		7188CCA2181187B000007720 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		7188CCA3181187B000007720 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		7188CCA4181187B000007720 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		7188CCA5181187B000007720 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		7188CCA6181187B000007720 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		7188CCAB18118AC200007720 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		7188CCAC18118AC200007720 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		7190ED2318117A42001B2357 /* fenping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fenping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7190ED2618117A42001B2357 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7190ED2818117A42001B2357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7190ED2A18117A42001B2357 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7190ED2E18117A43001B2357 /* fenping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fenping-Info.plist"; sourceTree = "<group>"; };
+		7190ED3018117A43001B2357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7190ED3218117A43001B2357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7190ED3418117A43001B2357 /* fenping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fenping-Prefix.pch"; sourceTree = "<group>"; };
+		7190ED3518117A43001B2357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7190ED3618117A43001B2357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7190ED3818117A43001B2357 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7190ED3A18117A43001B2357 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7190ED3C18117A43001B2357 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7190ED4618117B3C001B2357 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7190ED4718117B3C001B2357 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7190ED4918117D02001B2357 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		7190ED4A18117D02001B2357 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		7190ED4C18117D25001B2357 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		7190ED4D18117D25001B2357 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		7190ED4F18117E19001B2357 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7190ED5118117E2A001B2357 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7190ED5318117E31001B2357 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7190ED5518117E3A001B2357 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7190ED5718117EAF001B2357 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7190ED2018117A42001B2357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7190ED5818117EAF001B2357 /* QuartzCore.framework in Frameworks */,
+				7190ED5618117E3A001B2357 /* MobileCoreServices.framework in Frameworks */,
+				7190ED5418117E31001B2357 /* CFNetwork.framework in Frameworks */,
+				7190ED5218117E2A001B2357 /* SystemConfiguration.framework in Frameworks */,
+				7190ED5018117E19001B2357 /* libz.dylib in Frameworks */,
+				7190ED2718117A42001B2357 /* UIKit.framework in Frameworks */,
+				7190ED2918117A42001B2357 /* Foundation.framework in Frameworks */,
+				7190ED2B18117A42001B2357 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7188CC9E181187B000007720 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				7188CCAB18118AC200007720 /* MMExampleDrawerVisualStateManager.h */,
+				7188CCAC18118AC200007720 /* MMExampleDrawerVisualStateManager.m */,
+				7188CC9F181187B000007720 /* MMDrawerBarButtonItem.h */,
+				7188CCA0181187B000007720 /* MMDrawerBarButtonItem.m */,
+				7188CCA1181187B000007720 /* MMDrawerController.h */,
+				7188CCA2181187B000007720 /* MMDrawerController.m */,
+				7188CCA3181187B000007720 /* MMDrawerVisualState.h */,
+				7188CCA4181187B000007720 /* MMDrawerVisualState.m */,
+				7188CCA5181187B000007720 /* UIViewController+MMDrawerController.h */,
+				7188CCA6181187B000007720 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		7190ED1A18117A42001B2357 = {
+			isa = PBXGroup;
+			children = (
+				7190ED5718117EAF001B2357 /* QuartzCore.framework */,
+				7190ED5518117E3A001B2357 /* MobileCoreServices.framework */,
+				7190ED5318117E31001B2357 /* CFNetwork.framework */,
+				7190ED5118117E2A001B2357 /* SystemConfiguration.framework */,
+				7190ED4F18117E19001B2357 /* libz.dylib */,
+				7190ED2C18117A42001B2357 /* fenping */,
+				7190ED2518117A42001B2357 /* Frameworks */,
+				7190ED2418117A42001B2357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7190ED2418117A42001B2357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7190ED2318117A42001B2357 /* fenping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7190ED2518117A42001B2357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7190ED2618117A42001B2357 /* UIKit.framework */,
+				7190ED2818117A42001B2357 /* Foundation.framework */,
+				7190ED2A18117A42001B2357 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7190ED2C18117A42001B2357 /* fenping */ = {
+			isa = PBXGroup;
+			children = (
+				7188CC9E181187B000007720 /* MMDrawerController */,
+				7190ED3518117A43001B2357 /* AppDelegate.h */,
+				7190ED3618117A43001B2357 /* AppDelegate.m */,
+				7190ED2D18117A43001B2357 /* Supporting Files */,
+				7190ED4618117B3C001B2357 /* RootViewController.h */,
+				7190ED4718117B3C001B2357 /* RootViewController.m */,
+				7190ED4918117D02001B2357 /* LeftViewController.h */,
+				7190ED4A18117D02001B2357 /* LeftViewController.m */,
+				7190ED4C18117D25001B2357 /* RightViewController.h */,
+				7190ED4D18117D25001B2357 /* RightViewController.m */,
+				717D3DE1181608A1005C4DE9 /* HomeCell.h */,
+				717D3DE2181608A1005C4DE9 /* HomeCell.m */,
+			);
+			path = fenping;
+			sourceTree = "<group>";
+		};
+		7190ED2D18117A43001B2357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7190ED2E18117A43001B2357 /* fenping-Info.plist */,
+				7190ED2F18117A43001B2357 /* InfoPlist.strings */,
+				7190ED3218117A43001B2357 /* main.m */,
+				7190ED3418117A43001B2357 /* fenping-Prefix.pch */,
+				7190ED3818117A43001B2357 /* Default.png */,
+				7190ED3A18117A43001B2357 /* Default@2x.png */,
+				7190ED3C18117A43001B2357 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7190ED2218117A42001B2357 /* fenping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7190ED4018117A43001B2357 /* Build configuration list for PBXNativeTarget "fenping" */;
+			buildPhases = (
+				7190ED1F18117A42001B2357 /* Sources */,
+				7190ED2018117A42001B2357 /* Frameworks */,
+				7190ED2118117A42001B2357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fenping;
+			productName = fenping;
+			productReference = 7190ED2318117A42001B2357 /* fenping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7190ED1B18117A42001B2357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Bluce;
+			};
+			buildConfigurationList = 7190ED1E18117A42001B2357 /* Build configuration list for PBXProject "fenping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7190ED1A18117A42001B2357;
+			productRefGroup = 7190ED2418117A42001B2357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7190ED2218117A42001B2357 /* fenping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7190ED2118117A42001B2357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7190ED3118117A43001B2357 /* InfoPlist.strings in Resources */,
+				7190ED3918117A43001B2357 /* Default.png in Resources */,
+				7190ED3B18117A43001B2357 /* Default@2x.png in Resources */,
+				7190ED3D18117A43001B2357 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7190ED1F18117A42001B2357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7190ED3318117A43001B2357 /* main.m in Sources */,
+				7190ED3718117A43001B2357 /* AppDelegate.m in Sources */,
+				7190ED4818117B3C001B2357 /* RootViewController.m in Sources */,
+				7190ED4B18117D02001B2357 /* LeftViewController.m in Sources */,
+				7190ED4E18117D25001B2357 /* RightViewController.m in Sources */,
+				7188CCA7181187B000007720 /* MMDrawerBarButtonItem.m in Sources */,
+				7188CCA8181187B000007720 /* MMDrawerController.m in Sources */,
+				7188CCA9181187B000007720 /* MMDrawerVisualState.m in Sources */,
+				7188CCAA181187B000007720 /* UIViewController+MMDrawerController.m in Sources */,
+				7188CCAD18118AC200007720 /* MMExampleDrawerVisualStateManager.m in Sources */,
+				717D3DE3181608A1005C4DE9 /* HomeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7190ED2F18117A43001B2357 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7190ED3018117A43001B2357 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7190ED3E18117A43001B2357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7190ED3F18117A43001B2357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7190ED4118117A43001B2357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fenping/fenping-Prefix.pch";
+				INFOPLIST_FILE = "fenping/fenping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7190ED4218117A43001B2357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fenping/fenping-Prefix.pch";
+				INFOPLIST_FILE = "fenping/fenping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7190ED1E18117A42001B2357 /* Build configuration list for PBXProject "fenping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7190ED3E18117A43001B2357 /* Debug */,
+				7190ED3F18117A43001B2357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7190ED4018117A43001B2357 /* Build configuration list for PBXNativeTarget "fenping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7190ED4118117A43001B2357 /* Debug */,
+				7190ED4218117A43001B2357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7190ED1B18117A42001B2357 /* Project object */;
+}
