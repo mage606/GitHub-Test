@@ -47,34 +47,40 @@
     [self.view addSubview:scrollView];
     
     UITextField *tf1=[[UITextField alloc]initWithFrame:CGRectMake(40, 50, 200, 30)];
-    tf1.placeholder=@"text";
+    tf1.placeholder=@"text-123";
     tf1.borderStyle=UITextBorderStyleRoundedRect;
     [scrollView  addSubview:tf1];
     
     UITextField *tf2=[[UITextField alloc]initWithFrame:CGRectMake(40, 100, 200, 30)];
-    tf2.placeholder=@"text";
+    tf2.placeholder=@"text-123";
     tf2.borderStyle=UITextBorderStyleRoundedRect;
     [scrollView addSubview:tf2];
     
     UITextField *tf3=[[UITextField alloc]initWithFrame:CGRectMake(40, 150, 200, 30)];
-    tf3.placeholder=@"text";
+    tf3.placeholder=@"text-123";
     tf3.borderStyle=UITextBorderStyleRoundedRect;
     [scrollView  addSubview:tf3];
     
     UITextField *tf4=[[UITextField alloc]initWithFrame:CGRectMake(40, 200, 200, 30)];
-    tf4.placeholder=@"text";
+    tf4.placeholder=@"text-123";
     tf4.borderStyle=UITextBorderStyleRoundedRect;
     [scrollView  addSubview:tf4];
     
     UITextField *tf5=[[UITextField alloc]initWithFrame:CGRectMake(40, 250, 200, 30)];
-    tf5.placeholder=@"text";
+    tf5.placeholder=@"text-123";
     tf5.borderStyle=UITextBorderStyleRoundedRect;
     [scrollView  addSubview:tf5];
     
     UITextField *tf6=[[UITextField alloc]initWithFrame:CGRectMake(40, 300, 200, 30)];
-    tf6.placeholder=@"text";
+    tf6.placeholder=@"text-123";
     tf6.borderStyle=UITextBorderStyleRoundedRect;
     [scrollView  addSubview:tf6];
+    
+    UITextField *tf7=[[UITextField alloc]initWithFrame:CGRectMake(40, 300, 200, 30)];
+    tf7.placeholder=@"text-123";
+    tf7.borderStyle=UITextBorderStyleRoundedRect;
+    [scrollView  addSubview:tf7];
+
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
